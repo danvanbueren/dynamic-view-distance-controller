@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# Cobalt
+Cobalt is a free, open-source server-side mod for Fabric that aims to dynamically improve a number of performance issues in Minecraft.
 
-## Setup
+### PSA
+This mod is currently in active development. It my perform poorly or incorrectly in certain circumstances. As always, use at your own risk and make plenty of backups.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+If you would like to assist development of this mod, please send me a message! Help is always appreciated.
