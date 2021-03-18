@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "danvbcobalt",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Cobalt [alpha]",
+  "description": "Cobalt is a server-side Fabric mod enabling dynamic view distance control based on server performance.",
   "authors": [
-    "Me!"
+    "danvb10"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,22 +14,22 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/danvbcobalt/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.danvb10.cobalt.CobaltMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.17-alpha.21.11.a"
   },
   "suggests": {
     "another-mod": "*"
